@@ -13,7 +13,8 @@ let package = Package(
         .library(name: "Fluent", targets: ["Fluent"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/fluent-kit.git", from: "1.38.0"),
+//        .package(url: "https://github.com/vapor/fluent-kit.git", from: "1.38.0"),
+        .package(url: "https://github.com/ratranqu/fluent-kit.git", from: "add_enum_space"),
         .package(url: "https://github.com/vapor/vapor.git", from: "4.50.0"),
     ],
     targets: [
